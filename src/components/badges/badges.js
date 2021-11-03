@@ -1,6 +1,7 @@
 import "../badges/badges.scss";
 
 const Badges = () => {
+  
   return (
     <>
       <span className="badge badge-enebled">enebled</span>
