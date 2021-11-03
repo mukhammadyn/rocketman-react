@@ -7,7 +7,7 @@ const LoginPage = () => {
       <div className="login-page__logo-wrapper">
         <LogoSite width="75" height="68" />
       </div>
-      <form className="login-page__form" action="#">
+      <form className="login-page__form" method="POST" action="https://echo.htmlacademy.ru">
         <h2 className="login-page__title">Kirish</h2>
         <div className="login-page__input-box">
           <span className="login-page__icon"></span>
@@ -18,7 +18,7 @@ const LoginPage = () => {
           <input className="login-page__input" type="password" name="password" aria-label="password" placeholder="Parol" required />
         </div>
         <div className="login-page__btn-wrapper">
-          <button className="login-page__btn" type="button">Kirish</button>
+          <button className="login-page__btn" type="submit">Kirish</button>
         </div>
       </form>
     </div>
