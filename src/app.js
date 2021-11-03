@@ -1,10 +1,9 @@
-import Badges from "./components/badges/badges";
-
+import HeaderDropdown from "./components/header-dropdown/header-dropdown";
+import LoginPage from "./components/login-page/login-page";
 
 function App() {
   return (
     <>
-      <Badges />
     </>
   );
 }
