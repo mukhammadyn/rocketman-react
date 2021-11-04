@@ -1,0 +1,97 @@
+.button {
+  border: none;
+  background-color: transparent;
+}
+
+.btn-close {
+  width: 30px;
+  height: 30px;
+  background-color: #3EB597;
+  background-image: url("../../assets/img/icon-close.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.btn-edit {
+  width: 32px;
+  height: 32px;
+  background-color: #008C06;
+  border-radius: 50%;
+  background-image: url("../../assets/img/icon-edit.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.btn-reply {
+  width: 40px;
+  height: 40px;
+  background-color: #EBEBEB;
+  border-radius: 3px;
+  background-image: url("../../assets/img/icon-reply.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.btn-delete {
+  width: 40px;
+  height: 40px;
+  background-color: #FFDEDE;
+  border-radius: 3px;
+  background-image: url("../../assets/img/icon-delete.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.btn-info {
+  width: 40px;
+  height: 40px;
+  // background-color: #C4C4C4;
+  background-image: url("../../assets/img/icon-dots.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
