@@ -1,0 +1,64 @@
+// Input search
+
+.input__search {
+  width: 400px;
+  position: relative;
+  font-weight: 500;
+  border-radius: 168px;
+  padding: 12px 19px 12px 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &::placeholder {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    opacity: 0.6;
+  }
+}
+
+// Modificators
+
+.input--login {
+  width: 260px;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  padding: 15px 15px 15px 10px;
+
+  &::placeholder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #1B1B1B;
+    opacity: 0.4;
+  }
+}
+
+.input__label {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.input--category {
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 13px 13px 13px 15px;
+}
+
+.input--category .input__label {
+  display: block;
+}
+
+.input--answer {
+  width: 600px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}

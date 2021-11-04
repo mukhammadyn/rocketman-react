@@ -1,0 +1,39 @@
+@import '../../assets/scss/variables';
+
+.site-header {
+  background-color: $color-primary;
+}
+
+.site-header__content {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+}
+
+.site-header__logo-link {
+  padding-right: 32px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  box-shadow: inset -1px -1px 0px #303030;
+}
+
+.site-header__logo {
+  display: block;
+}
+
+.site-header__input {
+  width: 400px;
+  height: 40px;
+  margin-right: auto;
+  border-radius: 168px;
+  background-color: #fff;
+}
