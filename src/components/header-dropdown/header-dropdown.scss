@@ -35,10 +35,12 @@
   font-weight: 600;
   font-size: 12px;
   line-height: 15px;
+  color: #fff;
 
   &::after {
     width: 8px;
     height: 5px;
+    margin-left: 8px;
     background-image: url(../../assets/img/icon-dropdown.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -55,6 +57,7 @@
   top: 0;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .header-dropdown__content {

@@ -4,7 +4,7 @@ const handleFormSubmit = function(e) {
   e.prevetnDefault();
 }
 
-function Input({ className, children, ...props}) {
+function Input({ className, children, ...props }) {
   return(
     <>
       <form onSubmit={handleFormSubmit} action="#">

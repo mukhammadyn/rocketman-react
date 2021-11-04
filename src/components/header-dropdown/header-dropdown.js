@@ -3,13 +3,15 @@ import { RocketContext } from '../../contexts/rocket-context'
 import './header-dropdown.scss'
 
 function HeaderDropdown () {
-  console.log(useContext(RocketContext));
 
   const {nameClass, setNameClass} = useContext(RocketContext)
-  console.log(nameClass);
 
   function handleDropdownButton () {
-    setNameClass(true)
+    if (nameClass) {
+      setNameClass(false)
+    } else {
+      setNameClass(true)
+    }
   }
   
   return (
