@@ -6,6 +6,7 @@ import { ReactComponent as Suggations } from "../../assets/img/icon-suggation-si
 import { ReactComponent as Settings } from "../../assets/img/icon-settings-sitenav.svg"
 
 const Sitenav = () => {
+
   return (
     <nav className="sitenav">
       <ul className="sitenav-list">
