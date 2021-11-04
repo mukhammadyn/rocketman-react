@@ -5,7 +5,7 @@ import LoginPage from "./components/login-page/login-page";
 function App() {
   return (
     <>
-      <Header />
+
     </>
   );
 }
