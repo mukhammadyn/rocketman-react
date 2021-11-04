@@ -2,6 +2,7 @@ import HeaderDropdown from "../header-dropdown/header-dropdown"
 import RocketContextProvider from "../../contexts/rocket-context"
 import SiteLogo from '../../assets/img/rocketman-logo.svg'
 import './header.scss'
+import Input from "../Input/input"
 
 
 function Header () {
@@ -18,7 +19,8 @@ function Header () {
             </a>
 
             <div className="site-header__action">
-              <div className="site-header__input"></div>
+              {/* <div className="site-header__input"></div> */}
+              <Input />
 
               <div className="site-header__dropdown">
                 <HeaderDropdown />
