@@ -1,0 +1,18 @@
+.badge {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  padding: 7px 13px;
+  border-radius: 60px;
+}
+
+.badge-enebled {
+  background-color: #D9FFDA;
+  color: #008C06;
+}
+
+.badge-disabled {
+  background-color: #FFD9D9;
+  color: #BE0707
+}

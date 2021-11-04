@@ -1,0 +1,49 @@
+/* BUTTON */
+
+.btn {
+  font-weight: 600;
+  color: #fff;
+  background-color: #2E3444;
+  border: none;
+  border-radius: 5px;
+  padding: 16px;
+  width: auto;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+/* MODIFICATORS */
+
+.btn--green {
+  background-color: #3EB597;
+}
+
+.btn--add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 26px;
+
+  &::after {
+    content: "";
+    background-image: url("../../assets/img/icon-add.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.btn--full {
+  width: 100%;
+}
