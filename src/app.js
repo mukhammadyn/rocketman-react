@@ -1,9 +1,9 @@
-import HeaderDropdown from "./components/header-dropdown/header-dropdown";
-import LoginPage from "./components/login-page/login-page";
+import Sitenav from "./components/sitenav/sitenav";
 
 function App() {
   return (
     <>
+      <Sitenav />
     </>
   );
 }
